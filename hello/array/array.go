@@ -2,6 +2,6 @@ package hello
 
 import "fmt"
 
-func array() {
+func Array() {
 	fmt.Println("array")
 }
