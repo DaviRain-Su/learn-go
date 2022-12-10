@@ -1,9 +1,14 @@
 package main
 
-import chapter2 "headfirstgo/Chapter2"
+import (
+	"headfirstgo/Chapter3"
+)
 
 func main() {
-	//chapter2.PassFail()
-	//chapter2.FileSize()
-	chapter2.Guess()
+	//Chapter2.PassFail()
+	//Chapter2.FileSize()
+	//Chapter2.Guess()
+	//Chapter3.Printf()
+	Chapter3.DisplayArea()
+	//Chapter3.RepeatLine("hello", 3)
 }
