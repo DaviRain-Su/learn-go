@@ -1,6 +1,6 @@
 package main
 
-import "headfirstgo/src/chapter4/greeting/deutsch"
+import "headfirstgo/src/chapter5"
 
 func main() {
 	//chapter2.PassFail()
@@ -18,6 +18,8 @@ func main() {
 	//fmt.Println("day in weeks = ", dates.DaysInWeek)
 	//deutsch.Hallo()
 	//deutsch.GutenTag()
-	deutsch.Hallo()
-	deutsch.GutenTag()
+	//deutsch.Hallo()
+	//deutsch.GutenTag()
+	chapter5.ArrayExample()
+	//chapter5.ReadFile("data.txt")
 }
