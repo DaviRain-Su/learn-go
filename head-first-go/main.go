@@ -1,10 +1,6 @@
 package main
 
-import (
-	"fmt"
-	"headfirstgo/src/chapter4/calc"
-	"headfirstgo/src/chapter4/greeting"
-)
+import "headfirstgo/src/chapter4/greeting/deutsch"
 
 func main() {
 	//chapter2.PassFail()
@@ -14,9 +10,14 @@ func main() {
 	//chapter3.DisplayArea()
 	//chapter3.RepeatLine("hello", 3)
 	//chapter4.Tocelsius()
-	greeting.Greeting()
-	greeting.Hello()
-	greeting.Hi()
-	fmt.Println("1 + 2 = ", calc.Add(1, 2))
-	fmt.Println("1 - 2 = ", calc.Dec(1, 2))
+	//greeting.Greeting()
+	//greeting.Hello()
+	//greeting.Hi()
+	//fmt.Println("1 + 2 = ", calc.Add(1, 2))
+	//fmt.Println("1 - 2 = ", calc.Dec(1, 2))
+	//fmt.Println("day in weeks = ", dates.DaysInWeek)
+	//deutsch.Hallo()
+	//deutsch.GutenTag()
+	deutsch.Hallo()
+	deutsch.GutenTag()
 }

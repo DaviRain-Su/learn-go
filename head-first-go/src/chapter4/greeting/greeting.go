@@ -1,15 +1,18 @@
 package greeting
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/headfirstgo/greeting"
+)
 
 func Greeting() {
 	fmt.Println("Hello, World!")
 }
 
 func Hello() {
-	fmt.Println("Hello!")
+	greeting.Hello()
 }
 
 func Hi() {
-	fmt.Println("Hi!")
+	greeting.Hi()
 }

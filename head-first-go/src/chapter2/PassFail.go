@@ -2,7 +2,8 @@ package chapter2
 
 import (
 	"fmt"
-	"headfirstgo/src/keyboard"
+	//"headfirstgo/src/keyboard"
+	"github.com/headfirstgo/keyboard"
 	"log"
 	"os"
 )
