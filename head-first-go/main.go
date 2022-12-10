@@ -1,14 +1,22 @@
 package main
 
 import (
-	"headfirstgo/Chapter3"
+	"fmt"
+	"headfirstgo/src/chapter4/calc"
+	"headfirstgo/src/chapter4/greeting"
 )
 
 func main() {
-	//Chapter2.PassFail()
-	//Chapter2.FileSize()
-	//Chapter2.Guess()
-	//Chapter3.Printf()
-	Chapter3.DisplayArea()
-	//Chapter3.RepeatLine("hello", 3)
+	//chapter2.PassFail()
+	//chapter2.FileSize()
+	//chapter2.Guess()
+	//chapter3.Printf()
+	//chapter3.DisplayArea()
+	//chapter3.RepeatLine("hello", 3)
+	//chapter4.Tocelsius()
+	greeting.Greeting()
+	greeting.Hello()
+	greeting.Hi()
+	fmt.Println("1 + 2 = ", calc.Add(1, 2))
+	fmt.Println("1 - 2 = ", calc.Dec(1, 2))
 }

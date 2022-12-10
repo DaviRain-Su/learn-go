@@ -1,28 +1,20 @@
-package Chapter2
+package chapter2
 
 import (
-	"bufio"
 	"fmt"
+	"headfirstgo/src/keyboard"
 	"log"
 	"os"
-	"strconv"
-	"strings"
 )
 
 // pass_fail reports whether a grade is passing or failing.
 func PassFail() {
 	fmt.Print("Enter a grade: ")
-	reader := bufio.NewReader(os.Stdin)
-	input, err := reader.ReadString('\n')
+
+	grade, err := keyboard.GetFloat()
 	if err != nil {
 		log.Fatal(err)
 	}
-
-	grade, err := strconv.ParseFloat(strings.TrimSpace(input), 64)
-	if err != nil {
-		log.Fatal(err)
-	}
-
 	var status string
 	if grade == 100 {
 		status = "Perfect!"
