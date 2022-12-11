@@ -1,6 +1,6 @@
 package main
 
-import "headfirstgo/src/chapter5"
+import "headfirstgo/src/chapter6"
 
 func main() {
 	//chapter2.PassFail()
@@ -20,6 +20,8 @@ func main() {
 	//deutsch.GutenTag()
 	//deutsch.Hallo()
 	//deutsch.GutenTag()
-	chapter5.ArrayExample()
+	//chapter5.ArrayExample()
 	//chapter5.ReadFile("data.txt")
+	//chapter6.DisplaySlice()
+	chapter6.Average2()
 }

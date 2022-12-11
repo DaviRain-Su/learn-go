@@ -37,8 +37,8 @@ func ArrayExample() {
 		fmt.Println("index = ", index, ", value = ", value)
 	}
 
-	number := [3]float64{2, 3, 4}
-	CalcArrayAverage(number)
+	//number := [3]float64{2, 3, 4}
+	//CalcArrayAverage(number)
 
 	number, err := datafile.GetFloats("data.txt")
 	if err != nil {
@@ -47,12 +47,12 @@ func ArrayExample() {
 	CalcArrayAverage(number)
 }
 
-func CalcArrayAverage(array [3]float64) float64 {
+func CalcArrayAverage(array []float64) float64 {
 	var sum float64 = 0
 	for _, number := range array {
 		sum += number
 	}
 	fmt.Println("sum is ", sum)
-	fmt.Println("average is ", sum/float64(3))
-	return sum / float64(3)
+	fmt.Println("average is ", sum/float64(len(array)))
+	return sum / float64(len(array))
 }
